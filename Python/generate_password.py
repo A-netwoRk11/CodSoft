@@ -1,6 +1,6 @@
 import random
 
-mainString = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+-=}{[]|;:,.<>?'
+mainString = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+-=`~|;:,.?'
 
 def generate_password(length):
     password=''
@@ -19,6 +19,7 @@ def main():
         if length<=0:
             raise ValueError
         else:
+            print("Your Generated password by Password Generator is: " )
             generate_password(length)
         
     except ValueError:

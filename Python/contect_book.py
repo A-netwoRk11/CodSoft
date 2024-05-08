@@ -12,6 +12,9 @@ class ContactBook:
         self.contacts = []
     
     def add_contact(self,name,phone,email,address):
+        if name is None or phone is None:
+            print("Error; Name and Phone number are required.")
+            return
         for contact in self.contacts:
             if(name == contact.name or phone == contact.phone):
                 print("\nContact already exists.")
@@ -23,6 +26,9 @@ class ContactBook:
         
     def view_contacts(self):
         flag=0
+        if flag == 0:
+            print("\nContact list is empty.")
+            return
         for  contact in self.contacts:
             flag = 1
             print("-------------------------")
@@ -30,9 +36,6 @@ class ContactBook:
             print("Phone:", contact.phone)
             print("Email:", contact.email)
             print("Address:", contact.address)
-        if flag == 0:
-            print("\nContact list is empty.")
-            return
         
         print("-------------------------")
         return

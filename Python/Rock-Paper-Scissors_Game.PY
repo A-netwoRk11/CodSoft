@@ -18,18 +18,18 @@ def main():
         userChoice = input("\nEnter your choice (rock, paper, scissors): ")
         computerChoice = random.choice(["rock", "paper", "scissors"])
         
-        print(f"\nYou chose: {userChoice}")
+        print(f"You chose: {userChoice}")
         
         try:
             print(f"Computer chose: {computerChoice}")
             if userChoice == computerChoice:
-                print("\nIt's a tie!\n")
+                print("\nIt's a tie!")
                 tie+=1
             elif winKey[userChoice] == computerChoice:
-                print("\nYou win!\n")
+                print("\nYou win!")
                 win+=1
             else:
-                print("\nYou loose!\n")
+                print("\nYou loose!")
                 loose+=1
 
             print(f"Wins: {win}")
