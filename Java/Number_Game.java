@@ -1,4 +1,4 @@
-package Java.NumberGame;
+package Java;
 
 import java.util.Scanner;
 import java.util.Random;

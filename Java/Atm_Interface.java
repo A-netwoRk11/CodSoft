@@ -1,4 +1,4 @@
-package Java.AimInterface;
+package Java;
  import java.util.Scanner;
 class BankAccount
 {
