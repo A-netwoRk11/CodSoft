@@ -1,4 +1,3 @@
-# ROCK PAPER SCISSORS
 import random
 
 def main():
