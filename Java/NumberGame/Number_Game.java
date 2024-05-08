@@ -2,7 +2,7 @@ package Java.NumberGame;
 
 import java.util.Scanner;
 import java.util.Random;
-public class NumberGame
+public class Number_Game
 {
     public static void main(String[] args)
     {

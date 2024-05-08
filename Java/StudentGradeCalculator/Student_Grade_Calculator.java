@@ -1,6 +1,6 @@
 package Java.StudentGradeCalculator;
 import java.util.Scanner;
-public class GradeCalculator
+public class Student_Grade_Calculator
 {
     public static void main(String[] args)
     {
